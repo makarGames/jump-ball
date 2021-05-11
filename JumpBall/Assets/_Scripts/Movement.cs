@@ -1,10 +1,8 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class PlatformMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
-    [SerializeField] [Min(0)] private int speed = 5;
-
+    [SerializeField] [Min(0)] private int movespeed = 5;
     private Rigidbody2D thisRigidbody;
 
     private void Awake()
@@ -14,6 +12,6 @@ public class PlatformMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        thisRigidbody.velocity = Vector3.left * speed;
+        thisRigidbody.velocity = Vector3.left * movespeed;
     }
 }

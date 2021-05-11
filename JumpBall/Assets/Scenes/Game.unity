@@ -213,10 +213,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 99229261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1e7f066e63b5b4ca3dcbf9e301d67c, type: 3}
+  m_Script: {fileID: 11500000, guid: 384aacb16d6bfaa40b2df569d5d4b8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bonusPrefab: {fileID: 4612334686522641888, guid: 0afcf6bc456894f45b03e3287bc75549, type: 3}
+  prefabToSpawn: {fileID: 4612334686522641888, guid: 0afcf6bc456894f45b03e3287bc75549, type: 3}
+  yMinRange: 1
+  yMaxRange: 1
+  xMinRange: 1
+  minTimeToSpawn: 5
+  maxTimeToSpawn: 10
 --- !u!4 &99229263
 Transform:
   m_ObjectHideFlags: 0
@@ -535,10 +540,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 371217319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caa3867c1facca54f8b5f35628210511, type: 3}
+  m_Script: {fileID: 11500000, guid: 384aacb16d6bfaa40b2df569d5d4b8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformPrefab: {fileID: 5086472599546436815, guid: a4ebb5160c2e9b942842abd7236345aa, type: 3}
+  prefabToSpawn: {fileID: 5086472599546436815, guid: a4ebb5160c2e9b942842abd7236345aa, type: 3}
+  yMinRange: 7
+  yMaxRange: 9
+  xMinRange: 0.5
+  minTimeToSpawn: 2
+  maxTimeToSpawn: 3
 --- !u!4 &371217321
 Transform:
   m_ObjectHideFlags: 0
@@ -1155,6 +1165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 675f34d61ac028a4abe5d2c60376d9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keepPlay: 0
 --- !u!114 &1016406082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,10 +2020,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1786883859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caa3867c1facca54f8b5f35628210511, type: 3}
+  m_Script: {fileID: 11500000, guid: 384aacb16d6bfaa40b2df569d5d4b8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformPrefab: {fileID: 5086472599546436815, guid: a4ebb5160c2e9b942842abd7236345aa, type: 3}
+  prefabToSpawn: {fileID: 5086472599546436815, guid: a4ebb5160c2e9b942842abd7236345aa, type: 3}
+  yMinRange: 7
+  yMaxRange: 9
+  xMinRange: 0.5
+  minTimeToSpawn: 2
+  maxTimeToSpawn: 3
 --- !u!4 &1786883861
 Transform:
   m_ObjectHideFlags: 0
